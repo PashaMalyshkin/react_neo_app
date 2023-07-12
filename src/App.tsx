@@ -1,7 +1,12 @@
-import './App.css'
-
-function App() {
-  return <h1>first commit</h1>;
+import { Header } from './components/Header';
+import { NeoList } from "./components/NeoList";
+const App = () => {
+  return (
+    <>
+      <Header />
+      <NeoList />
+    </>
+  )
 }
 
 export default App
