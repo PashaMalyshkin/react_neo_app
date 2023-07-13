@@ -1,6 +1,7 @@
 import { client } from './fetchClient.ts';
 import {NeoResponse} from "../types/NeoResponse.ts";
 
+// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 const api_key = import.meta.env.VITE_API_KEY;
 
 export const getNeo = (date: string) => {

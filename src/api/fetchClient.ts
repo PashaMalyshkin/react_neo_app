@@ -24,7 +24,7 @@ function request<T>(
         throw new Error();
       }
 
-      return response.json();
+      return response.json() as Promise<T>;
     });
 }
 
