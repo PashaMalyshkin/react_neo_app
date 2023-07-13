@@ -105,7 +105,7 @@ const loadNeo = async (apiDate: string) => {
                 <CardMedia
                   component="img"
                   height="140"
-                  image="../../dist/resource-database-NIYFi896V0M-unsplash.jpg"
+                  image="https://foni.club/uploads/posts/2023-01/1674522322_foni-club-p-meteor-art-4.png"
                   alt="Asteroid"
                 />
                 <CardContent>
