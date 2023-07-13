@@ -1,5 +1,13 @@
 import {Neo} from "../types/Neo.ts";
 
+
+export const formatDate = (date: Date) => {
+  return date.toLocaleDateString()
+      .split('.')
+      .reverse()
+      .join('-');
+}
+
 export const getHazardousAsteroidAmount = (neoArray: Neo[]) => {
   let hazardousAsteroidAmount = 0;
 
